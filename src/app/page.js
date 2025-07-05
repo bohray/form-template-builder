@@ -1,6 +1,5 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import BuilderLayout from "@/components/Layout/BuilderLayout";
 
 export default function Home() {
-  return <div className={styles.page}>True</div>;
+  return <BuilderLayout />;
 }
